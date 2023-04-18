@@ -1,0 +1,12 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,300;1,500&display=swap');
+* {
+    box-sizing: border-box;
+}
+html {
+    width: 62.5%;
+}
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.6rem;
+}
