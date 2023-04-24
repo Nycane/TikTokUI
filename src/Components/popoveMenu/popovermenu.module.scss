@@ -1,0 +1,49 @@
+.container{
+    width:223px;
+    margin-top: -6px;
+    display: flex;
+    flex-direction: column;
+    .classname{
+        padding-bottom: 8px;
+    }
+    button,a{
+        height: 42px;
+        border-radius: 0px;
+    }
+   
+}
+.menuItem{
+    font-size: 1.6rem !important;
+    margin-left: 0px !important;
+    // font-weight: 520 !important;
+    padding: 11px 8px 10px 16px !important;
+    width: 100%;
+    text-align: start;
+    background-color: transparent;
+    &:hover{
+        background: rgba(22, 24, 35, 0.03);
+    }
+}
+.header{
+    display: inline-flex;
+    // justify-content: start;
+    align-items: center;
+    height: 50px;
+    button{
+        background-color: transparent;
+        font-size: 2.4rem;     
+        cursor: pointer;   
+        width: 66px;
+        border-radius: 0;
+    }
+    h3{
+        margin-left: 6px;
+        font-size: 15px;
+    }
+}
+.customcss{
+    border-top: 1px solid #ccc;
+}
+.scroll{
+    overflow-y: auto;
+}
