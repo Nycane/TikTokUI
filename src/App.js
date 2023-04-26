@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { LayoutDefault } from './Layouts';
+import LayoutDefault from './Layouts/Default';
 import { publishRoute } from './Routes';
 function App() {
     console.log(publishRoute);

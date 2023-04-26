@@ -1,0 +1,33 @@
+.info {
+    cursor: pointer;
+    &:hover {
+        background-color: #f2f1f1;
+    }
+    display: flex;
+    padding: 7px 8px;
+    .avatar {
+        width: 30px;
+        height: 30px;
+        margin-right: 12px;
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+    }
+    .name {
+        h4 {
+            font-weight: 600px;
+            letter-spacing: 1px;
+            font-size: 1.3rem;
+            .iconCheck {
+                margin-left: 6px;
+                color: rgb(32, 213, 236);
+            }
+        }
+        p {
+            color: rgba(22, 24, 35, 0.5);
+            font-size: 1rem;
+        }
+    }
+}

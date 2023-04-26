@@ -20,6 +20,7 @@
         border: none;
         width: 100%;
         height: inherit;
+        padding-right: 35px;
         font-size: 1.6rem;
         caret-color: rgba(254, 44, 85, 1);
         &:not(:placeholder-shown) ~ button {

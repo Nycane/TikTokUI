@@ -1,6 +1,7 @@
 import { faCircleXmark, faSpinner } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Popover, ResultAccount } from '~/Components';
+import ResultAccount from '~/Components/Account'
+import Popover from '~/Components/Popover'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import Tippy from '@tippyjs/react/headless'; // different import path!
 import { useEffect, useRef, useState } from 'react';
@@ -97,7 +98,7 @@ function Search() {
                             )}
                         </div>
                     )}
-                    <button onMouseDown={(e)=>e.preventDefault()}>
+                    <button onMouseDown={(e) => e.preventDefault()}>
                         <FontAwesomeIcon icon={faMagnifyingGlass}></FontAwesomeIcon>
                     </button>
                 </div>

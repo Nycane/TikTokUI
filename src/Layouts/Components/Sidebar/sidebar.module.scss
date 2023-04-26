@@ -1,0 +1,25 @@
+.sidebar {
+    width: 30%;
+    // width: 345px;
+    // position: fixed;
+    margin-top: 60px;
+    padding: 20px 0 26px;
+    left: 8%;
+}
+.suggestedAccount {
+    padding: 16px 0px;
+    padding-left: 8px;
+    border-top: 1px solid #ccc;
+    .title {
+        font-weight: 600;
+        font-size: 1.2rem;
+        color: rgba(22, 24, 35, 0.75);
+        padding: 0 8xp;
+        margin-bottom: 8px;
+    }
+    .seeAll{
+        color: rgb(254, 44, 85);
+         line-height: 20px;
+         font-size: 1.2rem;
+    }
+}

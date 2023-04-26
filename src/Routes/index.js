@@ -1,21 +1,21 @@
 import { FollowPage, HomePage, Profile, UploadPage } from '../Pages';
-import routesConfig from '~/Config/routes.js';
-import LayoutUpload from '../Layouts/Upload';
+import config from '~/Config';
+import LayoutUpload from '../Layouts/Upload/upload';
 let publishRoute = [
     {
-        path: routesConfig.home,
+        path: config.routes.home,
         component: HomePage,
     },
     {
-        path: routesConfig.follow,
+        path: config.routes.follow,
         component: FollowPage,
     },
     {
-        path: routesConfig.profile,
+        path: config.routes.profile,
         component: Profile,
     },
     {
-        path: routesConfig.upload,
+        path: config.routes.upload,
         component: UploadPage,
         layout: LayoutUpload,
     },
